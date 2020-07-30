@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <title>BlueFood</title>
+    <link rel="stylesheet" type="text/css" href="css/bf_estiloSistema.css"/>
   </head>
   <body>
     <header>
-      <div>
+      <div id="divLogotipoSistema">
+        <span id="spanAuxiliarDeAlinhamentoVertical"></span>
         <a href="">
-          <img src="images/bf_logotipoSistema.png" />
+          <img src="images/bf_logotipoSistema.png" id="imgLogotipoSistema" />
         </a>
       </div>
-      <div>
+      <div id="divUsuarioLogado">
           Olá Nome do Usuário!
           <br/>
-          <img src="images/bf_iconeCarrinho.png"
+          <img src="images/bf_iconeCarrinho.png" id="imgIconeCarrinho"/>
       </div>
     </header>
     <br /><br />
@@ -24,45 +26,45 @@
     <div>
         <h1>É hora de rangar!</h1>
         <form method="post" action="">
-            <fieldset>
+            <fieldset id="fieldSetFiltros">
                 <input type="text" name="busca" placeholder="Buscar por..."/>
                 <input type="button" value="Buscar"/>
             </fieldset>
         </form>
     </div>
 
-    <div>
-        <div>
+    <div id="divCategoriasComidaGeral">
+        <div id="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaChurrasco.png"/><br/>
+                <img src="images/sys_categoriaChurrasco.png" id="imgCategoriaComida"/><br/>
                 <span>Churrasco</span>
             </a>
         </div>
 
-        <div>
+        <div id="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaHamburguer.png"/><br/>
+                <img src="images/sys_categoriaHamburguer.png" id="imgCategoriaComida"/><br/>
                 <span>Hamburguer</span>
             </a>
         </div>
 
-        <div>
+        <div id="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaPizza.png"/><br/>
+                <img src="images/sys_categoriaPizza.png" id="imgCategoriaComida"/><br/>
                 <span>Pizza</span>
             </a>
         </div>
 
-        <div>
+        <div id="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaSalada.png"/><br/>
+                <img src="images/sys_categoriaSalada.png" id="imgCategoriaComida"/><br/>
                 <span>Salada</span>
             </a>
         </div>
 
-        <div>
+        <div id="divCategoriasComidaOpcao">
             <a href="#">
-                <img src="images/sys_categoriaSobremesa.png"/><br/>
+                <img src="images/sys_categoriaSobremesa.png" id="imgCategoriaComida"/><br/>
                 <span>Sobremesa</span>
             </a>
         </div>
